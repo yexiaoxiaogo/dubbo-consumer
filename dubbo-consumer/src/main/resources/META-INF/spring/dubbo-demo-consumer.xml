@@ -28,5 +28,6 @@
 
     <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
     <dubbo:reference id="demoService" check="false" interface="com.alibaba.dubbo.demo.DemoService"/>
-
+	<dubbo:reference id="weatherCityService" check="false" interface="io.github.yexiaoxiaogo.weather.service.WeatherCityService"/>
+	
 </beans>
